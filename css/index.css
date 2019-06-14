@@ -1,0 +1,414 @@
+@charset "utf-8";
+     *{
+         padding: 0;
+         margin: 0;
+         font-size: 12px;
+         color: #999999;
+     }
+    a{
+        text-decoration: none;
+        font-size: 12px;
+        color: #999999;
+    }
+    ul,li{
+        list-style: none;
+    }
+    body{
+        background-color: #f0f3ef;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .hair{
+        width: 100%;
+        height: 80px;
+        background-color: rgba(232,100,41,9);
+    }
+    .sm-hair{
+        width: 1190px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    .festival2{
+        width: 1000px;
+        height: 80px;
+    }
+    .welcome-nav{
+        background-color: #e3e4e5;
+        width: 100%;
+        height: 30px ;
+        border-bottom: 1px solid #dddddd;
+    }
+    .sm-welcome-nav{
+        width: 1190px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .site{
+        width: 70px;
+        height: 30px;
+        float: left;
+        line-height: 30px;
+        margin-left: 200px;
+    }
+    .site a{
+        display: block;
+        width: 70px;
+        background-image: url("../images/site.jpg");
+        background-repeat: no-repeat;
+        background-position: 0 8px;
+        padding-left: 20px;
+    }
+    .sm-welcome-nav ul {
+        float: right;
+        width: 630px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sm-welcome-nav ul li{
+        height: 12px;
+        float: left;
+        text-align: center;
+
+    }
+    .sm-welcome-nav ul a{
+        padding: 0 10px;
+        border-left: 1px solid #ccc;
+    }
+    .hearder{
+        width: 100%;
+        min-height: 950px;
+    }
+    .main{
+        width: 1190px;
+        min-height: 950px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .main-logo img{
+        width: 190px;
+        height: 170px;
+        position: absolute;
+        top: -30px;
+        left: 0;
+    }
+    .big-main-menu{
+        width: 1000px;
+        height: 140px;
+        float: right;
+    }
+    .main-menu{
+        width: 1000px;
+        height: 60px;
+        position: relative;
+    }
+    .ewm{
+        position: absolute;
+        padding: 2px;
+        border: 1px solid #ccc;
+        top: 0;
+        right: 0;
+    }
+    .main-menu1-box{
+        width: 785px;
+        height: 35px;
+        margin-left: 90px;
+    }
+    .main-menu1-box-left{
+        width: 400px;
+        height: 35px;
+        background-color: #fff;
+        line-height: 33px;
+        margin-top: 25px;
+    }
+    .main-menu1-box-right{
+        background-image: url("../images/trolley.png");
+        background-repeat: no-repeat;
+        background-position: 30px 6px;
+        padding-left: 30px;
+        height: 33px;
+        width: 150px;
+        border: 1px solid #ccc;
+        color: #e52e2d;
+        line-height: 33px;
+        text-align: center;
+        background-color: #fff;
+        margin-top: 25px;
+
+    }
+    .sm-camera{
+        width: 50px;
+        height: 35px;
+        background-image: url("../images/camera.png");
+        background-repeat: no-repeat; 
+        background-position: 10px 8px;
+        background-color: #fff;
+        margin-top: 25px;
+
+    }
+    .red{
+        color: #e52e2d;
+    }
+    .sm-search{
+        background-color: #e52e2d;
+        width: 50px;
+        height: 35px;
+        background-image: url("../images/glass.png");
+        background-repeat: no-repeat;
+        background-position: 12px 8px;
+        margin-top: 25px;
+    }
+    .sm-main-menu-nav{
+        margin-left: 90px;
+        width: 550px;
+        height: 30px;
+    }
+    .sm-main-menu-nav ul{
+        width: 550px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sm-main-menu-nav ul li{
+        float: left;
+        text-align: center;
+        margin: 0 9px;
+    }
+    .big-nav{
+        width: 1000px;
+        height: 50px;
+    }
+    .big-nav ul{
+        width: 720px;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+    }
+    .big-nav ul li{
+        text-align: left;
+        float: left;
+        margin: 0 10px;
+    }
+    .big-nav ul li a{
+        color: #444444;
+        font-size: 14px;
+    }
+    .main-back{
+        width: 1190px;
+        height: 510px;
+    }
+    .main-box{
+        width: 190px;
+        height: 481px;
+        border-top: 1px solid #ededed;
+    }
+    .main-box ul{
+        width: 165px;
+        height: 480px;
+        margin-left: 16px;
+        line-height: 26px;
+    }
+    .main-box ul li{
+        height: 26px;
+    }
+    .back{
+        width: 1000px;
+        height: 510px;
+    }
+    .back img{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .big-img{
+        width: 592px;
+        height: 470px;
+    }
+    .sm-img{
+        margin-left: 5px;
+        width: 190px;
+        height: 510px;
+    }
+    .back-right{
+        width: 192px;
+        height: 474px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+    .back-right1{
+        width: 192px;
+        height: 150px;
+        text-align: center;
+        position: relative;
+    }
+    .back-right1 img{
+        position: absolute;
+        top: -25px;
+        left:40px ;
+    }
+    .cen{
+        position: absolute;
+        top: 65px;
+        left: 26px;
+    }
+    .back-right1 span{
+        display: inline-block;
+        border-radius: 30px;
+        width: 70px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .semicircle1{
+        background-color: #fff;
+        color: red;
+    }
+    .semicircle2{
+        margin-left: 5px;
+        background-color: #363634;
+        color: #c5b97e;
+    }
+    .back-right2{
+        width: 166px;
+        height: 127px;
+        margin: 0 auto;
+        border-bottom: 1px solid #ccc;
+    }
+    .back-right2 ul{
+        width: 166px;
+        height: 127px;
+        white-space: nowrap;
+        word-wrap: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .back-right2 ul li{
+        float: left;
+        height: 25px;
+        line-height: 20px;
+    }
+    .back-right2 ul li span{
+        display: inline-block;
+        line-height: 20px;
+        text-align: center;
+        width: 34px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #e47e7f;
+        color: #fff;
+    }
+    .back-right3{
+        height: 180px;
+        width: 180px;
+        margin: 10px auto;
+    }
+    .back-right3 ul{
+        padding-top: 20px;
+        height: 170px;
+        width: 192px;
+
+    }
+    .back-right3 ul li{
+        margin: 0 7px;
+        width: 32px;
+        height: 24px;
+        float: left;
+        padding-top: 26px;
+        position: relative;
+        background: url("../images/sprite1.png") no-repeat -13px -4px;
+    }
+    .back-right3 ul li img{
+        position: absolute;
+        top: -20px;
+        right: 0;
+    }
+    .main-btn{
+        width: 1190px;
+        height: 275px;
+        background-color: firebrick;
+    }
+    .main-btn-left{
+        width: 190px;
+        height: 275px;
+    }
+    .main-btn-right{
+        width: 1000px;
+        height: 275px;
+        float: right;
+        background-color: #fff;
+    }
+    .main-btn-right ul{
+        width: 1000px;
+        height: 275px;
+    }
+    .main-btn-right ul li{
+        width: 199px;
+        float: left;
+        height: 275px;
+        position: relative;
+        text-align: center;
+    }
+    .main-btn-right ul li+li{
+        border-left: 1px solid #ccc;
+    }
+    .left{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 90px;
+    }
+    .right{
+        width: 20px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 90px;
+    }
+    .main-btn-right ul li div{
+        position: absolute;
+        width: 164px;
+        height: 60px;
+        bottom: 22px;
+        left: 20px;
+        white-space: nowrap;
+        word-wrap: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .main-btn-right ul li div p{
+        margin-top: 20px;
+        margin-left: 16px;
+    }
+    .main-btn-right ul li div p span{
+        display: inline-block;
+        width: 60px;
+        line-height: 20px;
+        height: 20px;
+        background-color: #e5382f;
+        color: #fff;
+        font-weight: 800;
+        float: left;
+    }
+    .main-btn-right ul li div p del{
+        display: inline-block;
+        width: 60px;
+        line-height: 18px;
+        height: 18px;
+        border: 1px solid #e5382f;
+        float: left;
+    }
+    .main-btn-right ul li .img{
+        width: 140px;
+        height:140px ;
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+    .activity{
+        width: 1270px;
+        height: 581px;
+        margin: 0 auto;
+        border-radius:15px;
+        background-image: url("../images/jdback.png");
+    }
